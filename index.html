@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex Quota Calendar — macOS menu bar quota rhythm</title>
+  <meta name="description" content="Codex Quota Calendar is a local-only macOS menu bar app that turns Codex usage into a daily and weekly quota calendar.">
+  <meta name="keywords" content="Codex, quota, macOS menu bar, SwiftUI, Developer ID, notarized DMG, local-first">
+  <meta name="author" content="hooosberg">
+  <meta name="theme-color" content="#082f2b">
+  <link rel="canonical" href="https://hooosberg.github.io/QuotaCalendar/">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/app-icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/app-icon-180.png">
+  <link rel="stylesheet" href="./styles.css">
+
+  <meta property="og:title" content="Codex Quota Calendar">
+  <meta property="og:description" content="A quiet macOS menu bar calendar for your Codex quota rhythm. Local-only, open source, notarized DMG.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hooosberg.github.io/QuotaCalendar/">
+  <meta property="og:image" content="https://hooosberg.github.io/QuotaCalendar/assets/screenshots/menu-popover.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Codex Quota Calendar",
+    "operatingSystem": "macOS 14+",
+    "applicationCategory": "DeveloperApplication",
+    "description": "A local-only macOS menu bar app that turns Codex usage into a daily and weekly quota calendar.",
+    "url": "https://hooosberg.github.io/QuotaCalendar/",
+    "downloadUrl": "https://github.com/hooosberg/QuotaCalendar/releases/latest",
+    "codeRepository": "https://github.com/hooosberg/QuotaCalendar",
+    "author": { "@type": "Person", "name": "hooosberg", "url": "https://github.com/hooosberg" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="#top">
+      <img src="./assets/icons/app-icon-64.png" alt="">
+      <span>Codex Quota Calendar</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#build">Source</a>
+      <a href="README.zh-CN.md">中文</a>
+      <a class="small-button" href="https://github.com/hooosberg/QuotaCalendar">GitHub</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <img class="hero-icon" src="./assets/icons/app-icon-256.png" alt="Codex Quota Calendar icon">
+        <h1>Keep your Codex quota in rhythm.</h1>
+        <p class="lead">A quiet macOS menu bar app that turns weekly remaining quota into a daily calendar, pace estimate, and local usage history.</p>
+        <p class="lead zh">把 Codex 剩余额度变成更容易理解的每日节奏：今日份额、本周可用日、速度预估、本地历史。</p>
+        <div class="cta-row">
+          <a class="button primary" href="https://github.com/hooosberg/QuotaCalendar/releases/latest">Download DMG</a>
+          <a class="button secondary" href="https://github.com/hooosberg/QuotaCalendar">View Source</a>
+        </div>
+        <p class="note">Developer ID signed · Apple notarized · local-only · not affiliated with OpenAI</p>
+      </div>
+      <div class="hero-shot">
+        <img src="./assets/screenshots/menu-popover.png" alt="Codex Quota Calendar macOS menu bar screenshot">
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Highlights">
+      <div><strong>10 min</strong><span>refresh rhythm</span></div>
+      <div><strong>20</strong><span>rolling local checkpoints</span></div>
+      <div><strong>12</strong><span>UI languages</span></div>
+      <div><strong>0</strong><span>servers or analytics</span></div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-head">
+        <p class="eyebrow">Why it helps</p>
+        <h2>Quota is easier as a calendar.</h2>
+        <p>Raw percentages are hard to pace. Codex Quota Calendar makes the remaining weekly window feel like a daily budget you can actually act on.</p>
+      </div>
+      <div class="grid">
+        <article>
+          <span class="glyph">◔</span>
+          <h3>Daily share</h3>
+          <p>See how much of today's average share has been used, with a simple progress ring.</p>
+        </article>
+        <article>
+          <span class="glyph">▦</span>
+          <h3>Remaining days</h3>
+          <p>Future days stay simple: unused days show zero, while today carries the actual usage.</p>
+        </article>
+        <article>
+          <span class="glyph">⌁</span>
+          <h3>Smoother speed</h3>
+          <p>A weighted average over recent local samples makes runout estimates less jumpy.</p>
+        </article>
+        <article>
+          <span class="glyph">⌘</span>
+          <h3>Menu bar native</h3>
+          <p>Built with SwiftUI as a compact macOS menu bar utility, not a web wrapper.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split" id="privacy">
+      <div>
+        <p class="eyebrow">Privacy</p>
+        <h2>Local by default. Bounded by design.</h2>
+        <p>Auth data stays on this Mac. The app does not run a server, send analytics, or upload your usage history. The local history log is intentionally small so it can help estimate pace without becoming a data sink.</p>
+      </div>
+      <div class="privacy-card">
+        <div><span>Account</span><strong>Local Codex auth</strong></div>
+        <div><span>Analytics</span><strong>None</strong></div>
+        <div><span>Server</span><strong>None</strong></div>
+        <div><span>Distribution</span><strong>Notarized DMG</strong></div>
+      </div>
+    </section>
+
+    <section class="split reverse">
+      <div class="installer-frame">
+        <img src="./assets/screenshots/dmg-background.png" alt="DMG installer background">
+      </div>
+      <div>
+        <p class="eyebrow">Install</p>
+        <h2>A normal macOS drag-to-Applications DMG.</h2>
+        <p>The release package is signed with Developer ID, submitted to Apple notarization, stapled, and arranged with a clean Finder installer background.</p>
+        <a class="button primary" href="https://github.com/hooosberg/QuotaCalendar/releases/latest">Get latest release</a>
+      </div>
+    </section>
+
+    <section class="section" id="build">
+      <div class="section-head">
+        <p class="eyebrow">Open source</p>
+        <h2>SwiftUI source, tests, and release scripts included.</h2>
+        <p>The repository includes the macOS app source, unit tests, icon generation, DMG styling, signing, and notarization scripts. Secrets are excluded by default.</p>
+      </div>
+      <pre><code>swift test
+./script/build_and_run.sh
+./script/package_release.sh --notarize</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <img src="./assets/icons/app-icon-96.png" alt="">
+    <div>
+      <strong>Codex Quota Calendar</strong>
+      <p>Built by <a href="https://github.com/hooosberg">hooosberg</a> · <a href="mailto:zikedece@proton.me">zikedece@proton.me</a> · <a href="privacy.html">Privacy</a></p>
+    </div>
+  </footer>
+</body>
+</html>

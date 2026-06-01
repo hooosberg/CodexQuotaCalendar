@@ -1,0 +1,23 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+dist/
+release/
+releases/
+*.dmg
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# Local release secrets. Never commit Apple ID passwords, App Store Connect keys,
+# exported signing certificates, or notarization logs.
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+notary-logs/
