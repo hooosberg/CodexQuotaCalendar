@@ -124,6 +124,11 @@ h1 {
   letter-spacing: 0;
 }
 
+h1.zh-title {
+  font-size: clamp(42px, 5.6vw, 70px);
+  line-height: 1.05;
+}
+
 h2 {
   font-size: clamp(34px, 4vw, 56px);
   line-height: 1;

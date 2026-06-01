@@ -162,9 +162,9 @@ enum LocalizationCatalog {
             appName: "Codex Quota Calendar", todayStatus: "Today", weeklyCycle: "Weekly Cycle", predictedExhaustion: "Predicted Exhaustion", settings: "Settings", about: "About", appearanceDay: "Day Mode", appearanceNight: "Night Mode", appearanceSystem: "System", language: "Language", refreshNow: "Refresh", privacySummary: "Runs locally. No proxy, no upload, no account switching.", fiveHourWindow: "5-Hour Window", weeklyWindow: "Weekly Window", sevenDayPacing: "Remaining Days", monthlyHeatmap: "Monthly Heatmap", notifications: "Notifications", aboutBody: "Codex Quota Calendar turns weekly Codex quota into a daily rhythm. It records local checkpoints, estimates today's average allowance, and gives you a clearer runout time before the week gets tight."
         ),
         .zhHans: base(
-            appName: "Codex 额度日历", todayStatus: "今日状态", weeklyCycle: "一周预算", predictedExhaustion: "预计用完", settings: "设置", about: "关于", appearanceDay: "白天模式", appearanceNight: "夜晚模式", appearanceSystem: "跟随系统", language: "语言", refreshNow: "刷新", privacySummary: "本机运行。不做代理、不上传数据、不切换账号。", fiveHourWindow: "5 小时额度", weeklyWindow: "每周额度", sevenDayPacing: "本周期可用日", monthlyHeatmap: "月历热力", notifications: "提醒", aboutBody: "Codex 额度日历把每周 Codex 额度换算成每天可用的节奏。它会记录本机历史点位，估算今日平均额度，并给出更清楚的用完时间。"
+            appName: "Codex Quota Calendar", todayStatus: "今日状态", weeklyCycle: "一周预算", predictedExhaustion: "预计用完", settings: "设置", about: "关于", appearanceDay: "白天模式", appearanceNight: "夜晚模式", appearanceSystem: "跟随系统", language: "语言", refreshNow: "刷新", privacySummary: "本机运行。不做代理、不上传数据、不切换账号。", fiveHourWindow: "5 小时额度", weeklyWindow: "每周额度", sevenDayPacing: "本周期可用日", monthlyHeatmap: "月历热力", notifications: "提醒", aboutBody: "Codex Quota Calendar 把每周 Codex 额度换算成每天可用的节奏。它会记录本机历史点位，估算今日平均额度，并给出更清楚的用完时间。"
         ),
-        .zhHant: base(appName: "Codex 額度日曆", todayStatus: "今日狀態", weeklyCycle: "週期額度", predictedExhaustion: "預計用完", settings: "設定", about: "關於", appearanceDay: "白天模式", appearanceNight: "夜晚模式", appearanceSystem: "跟隨系統", language: "語言", refreshNow: "重新整理", privacySummary: "本機運行。不做代理、不上傳資料、不切換帳號。", fiveHourWindow: "5 小時額度", weeklyWindow: "每週額度", sevenDayPacing: "7 天節奏", monthlyHeatmap: "月曆熱力", notifications: "提醒", aboutBody: "Codex 額度日曆把每週 Codex 額度換算成每日可用節奏。它會記錄本機歷史點位，估算今日平均額度，並給出更清楚的用完時間。"),
+        .zhHant: base(appName: "Codex Quota Calendar", todayStatus: "今日狀態", weeklyCycle: "週期額度", predictedExhaustion: "預計用完", settings: "設定", about: "關於", appearanceDay: "白天模式", appearanceNight: "夜晚模式", appearanceSystem: "跟隨系統", language: "語言", refreshNow: "重新整理", privacySummary: "本機運行。不做代理、不上傳資料、不切換帳號。", fiveHourWindow: "5 小時額度", weeklyWindow: "每週額度", sevenDayPacing: "7 天節奏", monthlyHeatmap: "月曆熱力", notifications: "提醒", aboutBody: "Codex Quota Calendar 把每週 Codex 額度換算成每日可用節奏。它會記錄本機歷史點位，估算今日平均額度，並給出更清楚的用完時間。"),
         .ja: base(appName: "Codex Quota Calendar", todayStatus: "今日", weeklyCycle: "週間サイクル", predictedExhaustion: "予測消尽", settings: "設定", about: "このアプリについて", appearanceDay: "ライト", appearanceNight: "ダーク", appearanceSystem: "システム", language: "言語", refreshNow: "更新", privacySummary: "ローカルで動作。プロキシ、アップロード、アカウント切替なし。", fiveHourWindow: "5時間枠", weeklyWindow: "週間枠", sevenDayPacing: "残り利用日", monthlyHeatmap: "月間ヒートマップ", notifications: "通知", aboutBody: "Codex Quota Calendar は、週間 Codex クォータを日々の利用ペースに変換します。ローカルの記録点を使って今日の平均枠を推定し、週が厳しくなる前に分かりやすい消尽時刻を示します。"),
         .ko: base(appName: "Codex Quota Calendar", todayStatus: "오늘", weeklyCycle: "주간 주기", predictedExhaustion: "예상 소진", settings: "설정", about: "정보", appearanceDay: "라이트 모드", appearanceNight: "다크 모드", appearanceSystem: "시스템", language: "언어", refreshNow: "새로고침", privacySummary: "로컬 실행. 프록시, 업로드, 계정 전환 없음.", fiveHourWindow: "5시간 창", weeklyWindow: "주간 창", sevenDayPacing: "남은 사용일", monthlyHeatmap: "월간 히트맵", notifications: "알림", aboutBody: "Codex Quota Calendar는 주간 Codex 한도를 일일 사용 리듬으로 바꿉니다. 로컬 기록 지점을 바탕으로 오늘의 평균 한도를 추정하고, 주간 한도가 빡빡해지기 전에 더 명확한 소진 시간을 보여 줍니다."),
         .es: base(appName: "Codex Quota Calendar", todayStatus: "Hoy", weeklyCycle: "Ciclo semanal", predictedExhaustion: "Agotamiento previsto", settings: "Ajustes", about: "Acerca de", appearanceDay: "Modo claro", appearanceNight: "Modo oscuro", appearanceSystem: "Sistema", language: "Idioma", refreshNow: "Actualizar", privacySummary: "Funciona localmente. Sin proxy, subidas ni cambio de cuenta.", fiveHourWindow: "Ventana de 5 h", weeklyWindow: "Ventana semanal", sevenDayPacing: "Días restantes", monthlyHeatmap: "Mapa mensual", notifications: "Notificaciones", aboutBody: "Codex Quota Calendar convierte la cuota semanal de Codex en un ritmo diario. Registra puntos locales, estima la cuota media de hoy y muestra una hora de agotamiento más clara antes de que la semana se complique."),
@@ -188,7 +188,7 @@ enum LocalizationCatalog {
         .zhHans: [
             .updatedAt: "已更新 %@",
             .waitingForUsage: "等待 Codex 用量",
-            .waitingForUsageBody: "登录 ChatGPT 后，额度日历会在本机保存授权并读取真实额度。",
+            .waitingForUsageBody: "登录 ChatGPT 后，Codex Quota Calendar 会在本机保存授权并读取真实额度。",
             .comfortablePace: "节奏舒适",
             .watchPace: "接近今日线",
             .pastDailyLine: "已超过今日线",
@@ -245,7 +245,7 @@ enum LocalizationCatalog {
             .budgetUsageRecord: "预算使用率",
             .signInWithChatGPT: "使用 ChatGPT 登录",
             .signingIn: "等待浏览器授权...",
-            .signInIntro: "新用户第一次使用需要授权。登录完成后，额度日历会自动回到这里并刷新真实额度。",
+            .signInIntro: "新用户第一次使用需要授权。登录完成后，Codex Quota Calendar 会自动回到这里并刷新真实额度。",
             .account: "账号",
             .signedOut: "未登录",
             .signOut: "退出登录",
@@ -263,7 +263,7 @@ enum LocalizationCatalog {
             .resetWatcherNote: "点击关注重置情况，顺便给额度焦虑加一点幽默感。",
             .followResetWatcher: "关注重置情况",
             .appControls: "应用",
-            .quitApp: "关闭额度日历",
+            .quitApp: "关闭 Codex Quota Calendar",
             .quitAppNote: "退出菜单栏应用；下次可从启动台或应用文件夹重新打开。",
             .aboutTagline: "把 Codex 剩余额度换算成今天该怎么用。",
             .aboutLocalPromise: "本工具只在本机保存授权、用量日志和每日基准线；不做代理，不上传数据，也不会帮你切换账号。",
@@ -289,7 +289,7 @@ enum LocalizationCatalog {
         .en: [
             .updatedAt: "Updated %@",
             .waitingForUsage: "Waiting for Codex usage",
-            .waitingForUsageBody: "Sign in with ChatGPT. Quota Calendar stores local auth and reads real quota data.",
+            .waitingForUsageBody: "Sign in with ChatGPT. Codex Quota Calendar stores local auth and reads real quota data.",
             .comfortablePace: "Comfortable pace",
             .watchPace: "Watch today's pace",
             .pastDailyLine: "Past the daily line",
@@ -346,7 +346,7 @@ enum LocalizationCatalog {
             .budgetUsageRecord: "Budget Usage",
             .signInWithChatGPT: "Sign in with ChatGPT",
             .signingIn: "Waiting for browser authorization...",
-            .signInIntro: "First-time users need to authorize. After login, Quota Calendar returns here and refreshes real quota data.",
+            .signInIntro: "First-time users need to authorize. After login, Codex Quota Calendar returns here and refreshes real quota data.",
             .account: "Account",
             .signedOut: "Signed out",
             .signOut: "Sign Out",
@@ -390,7 +390,7 @@ enum LocalizationCatalog {
         .zhHant: [
             .updatedAt: "已更新 %@",
             .waitingForUsage: "等待 Codex 用量",
-            .waitingForUsageBody: "登入 ChatGPT 後，額度日曆會在本機保存授權並讀取真實額度。",
+            .waitingForUsageBody: "登入 ChatGPT 後，Codex Quota Calendar 會在本機保存授權並讀取真實額度。",
             .comfortablePace: "節奏舒適",
             .watchPace: "接近今日線",
             .pastDailyLine: "已超過今日線",
@@ -422,7 +422,7 @@ enum LocalizationCatalog {
             .runsOutAt: "%@ 用完",
             .signInWithChatGPT: "使用 ChatGPT 登入",
             .signingIn: "等待瀏覽器授權...",
-            .signInIntro: "首次使用需要授權。登入完成後，額度日曆會自動回到這裡並重新整理真實額度。",
+            .signInIntro: "首次使用需要授權。登入完成後，Codex Quota Calendar 會自動回到這裡並重新整理真實額度。",
             .account: "帳號",
             .signedOut: "未登入",
             .signOut: "登出",
@@ -436,7 +436,7 @@ enum LocalizationCatalog {
             .resetWatcherTitle: "賽博重置上帝 @thsottiaux",
             .resetWatcherNote: "點擊關注重置情況，順便給額度焦慮加一點幽默感。",
             .appControls: "應用",
-            .quitApp: "關閉額度日曆",
+            .quitApp: "關閉 Codex Quota Calendar",
             .quitAppNote: "退出選單列應用；下次可從啟動台或應用程式資料夾重新打開。",
             .aboutTagline: "把 Codex 剩餘額度換算成今天該怎麼用。",
             .aboutLocalPromise: "本工具只在本機保存授權、用量日誌和每日基準線；不做代理，不上傳資料，也不會幫你切換帳號。",

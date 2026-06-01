@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex Quota Calendar - macOS 菜单栏额度节奏工具</title>
+  <meta name="description" content="Codex Quota Calendar 是一个本地优先的 macOS 菜单栏工具，把 Codex 剩余额度转换成每日节奏、本周可用日和预计用完时间。">
+  <meta name="keywords" content="Codex, 额度, macOS 菜单栏, SwiftUI, 公证 DMG, 本地优先">
+  <meta name="author" content="hooosberg">
+  <meta name="theme-color" content="#082f2b">
+  <link rel="canonical" href="https://hooosberg.github.io/CodexQuotaCalendar/zh-CN.html">
+  <link rel="alternate" hreflang="en" href="https://hooosberg.github.io/CodexQuotaCalendar/">
+  <link rel="alternate" hreflang="zh-CN" href="https://hooosberg.github.io/CodexQuotaCalendar/zh-CN.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/app-icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/app-icon-180.png">
+  <link rel="stylesheet" href="./styles.css">
+
+  <meta property="og:title" content="Codex Quota Calendar">
+  <meta property="og:description" content="给 Codex 额度做一个安静的 macOS 菜单栏日历。本地记录、开源、已公证 DMG。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hooosberg.github.io/CodexQuotaCalendar/zh-CN.html">
+  <meta property="og:image" content="https://hooosberg.github.io/CodexQuotaCalendar/assets/screenshots/menu-popover.png">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="#top">
+      <img src="./assets/icons/app-icon-64.png" alt="">
+      <span>Codex Quota Calendar</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">功能</a>
+      <a href="#privacy">隐私</a>
+      <a href="#build">源码</a>
+      <a href="./">English</a>
+      <a class="small-button" href="https://github.com/hooosberg/CodexQuotaCalendar">GitHub</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <img class="hero-icon" src="./assets/icons/app-icon-256.png" alt="Codex Quota Calendar 图标">
+        <h1 class="zh-title">让 Codex 额度有节奏。</h1>
+        <p class="lead">一个安静的 macOS 菜单栏工具，把每周剩余额度转换成每日份额、本周可用日、速度预估和本地历史。</p>
+        <p class="lead zh">不用再盯着抽象百分比猜今天还能用多久，打开菜单栏就能看到当前节奏。</p>
+        <div class="cta-row">
+          <a class="button primary" href="https://github.com/hooosberg/CodexQuotaCalendar/releases/latest">下载 DMG</a>
+          <a class="button secondary" href="https://github.com/hooosberg/CodexQuotaCalendar">查看源码</a>
+        </div>
+        <p class="note">Developer ID 签名 · Apple 公证 · 本地优先 · 非 OpenAI 官方产品</p>
+      </div>
+      <div class="hero-shot">
+        <img src="./assets/screenshots/menu-popover.png" alt="Codex Quota Calendar macOS 菜单栏截图">
+      </div>
+    </section>
+
+    <section class="stats" aria-label="亮点">
+      <div><strong>10 分钟</strong><span>刷新节奏</span></div>
+      <div><strong>20</strong><span>本地滚动记录点</span></div>
+      <div><strong>12</strong><span>界面语言</span></div>
+      <div><strong>0</strong><span>服务器或分析统计</span></div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-head">
+        <p class="eyebrow">为什么有用</p>
+        <h2>额度更适合被看成日历。</h2>
+        <p>原始百分比很难判断节奏。Codex Quota Calendar 会把剩余周额度拆成每日平均份额，让你更容易决定今天该不该放慢速度。</p>
+      </div>
+      <div class="grid">
+        <article>
+          <span class="glyph">◔</span>
+          <h3>今日份额</h3>
+          <p>用简单圆环显示今天平均份额已使用多少，并在接近尾声时给出更清晰的状态。</p>
+        </article>
+        <article>
+          <span class="glyph">▦</span>
+          <h3>本周可用日</h3>
+          <p>未来日期保持简单，未使用的天显示 0，今天显示真实消耗比例。</p>
+        </article>
+        <article>
+          <span class="glyph">⌁</span>
+          <h3>平滑速度</h3>
+          <p>基于最近本地记录点做加权平均，让预计用完时间不再频繁跳动。</p>
+        </article>
+        <article>
+          <span class="glyph">⌘</span>
+          <h3>原生菜单栏</h3>
+          <p>使用 SwiftUI 构建的 macOS 菜单栏小工具，不是网页套壳。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split" id="privacy">
+      <div>
+        <p class="eyebrow">隐私</p>
+        <h2>本地优先，记录克制。</h2>
+        <p>授权信息保存在这台 Mac 上。应用不运行开发者服务器，不发送分析统计，也不会上传你的使用历史。本地历史记录有大小限制，只用于估算速度。</p>
+      </div>
+      <div class="privacy-card">
+        <div><span>账号</span><strong>读取本机 Codex 授权</strong></div>
+        <div><span>分析统计</span><strong>无</strong></div>
+        <div><span>开发者服务器</span><strong>无</strong></div>
+        <div><span>分发方式</span><strong>已公证 DMG</strong></div>
+      </div>
+    </section>
+
+    <section class="split reverse">
+      <div class="installer-frame">
+        <img src="./assets/screenshots/dmg-background.png" alt="DMG 安装引导背景">
+      </div>
+      <div>
+        <p class="eyebrow">安装</p>
+        <h2>标准 macOS 拖拽安装。</h2>
+        <p>发布包使用 Developer ID 签名，已提交 Apple 公证并 staple，打开 DMG 后拖到 Applications 即可。</p>
+        <a class="button primary" href="https://github.com/hooosberg/CodexQuotaCalendar/releases/latest">获取最新版</a>
+      </div>
+    </section>
+
+    <section class="section" id="build">
+      <div class="section-head">
+        <p class="eyebrow">开源</p>
+        <h2>包含 SwiftUI 源码、测试和发布脚本。</h2>
+        <p>仓库包含 macOS 应用源码、单元测试、图标生成、DMG 样式、签名和公证脚本。密钥和本地发布凭据默认被排除。</p>
+      </div>
+      <pre><code>swift test
+./script/build_and_run.sh
+./script/package_release.sh --notarize</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <img src="./assets/icons/app-icon-96.png" alt="">
+    <div>
+      <strong>Codex Quota Calendar</strong>
+      <p>由 <a href="https://github.com/hooosberg">hooosberg</a> 构建 · <a href="mailto:zikedece@proton.me">zikedece@proton.me</a> · <a href="privacy.zh-CN.html">隐私</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -9,9 +9,9 @@
   <br>
   Daily share · weekly remaining quota · local history · notarized DMG
   <br>
-  <a href="https://hooosberg.github.io/QuotaCalendar/">Official Website</a> ·
+  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">Official Website</a> ·
   <a href="README.zh-CN.md">简体中文</a> ·
-  <a href="https://github.com/hooosberg/QuotaCalendar/releases/latest">Download</a>
+  <a href="https://github.com/hooosberg/CodexQuotaCalendar/releases/latest">Download</a>
 </p>
 
 <p align="center">
@@ -22,12 +22,12 @@
 </p>
 
 <p align="center">
-  <a href="https://hooosberg.github.io/QuotaCalendar/">
+  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">
     <img src="assets/screenshots/menu-popover.png" alt="Codex Quota Calendar screenshot" width="760">
   </a>
 </p>
 
-> **Download:** [latest notarized DMG](https://github.com/hooosberg/QuotaCalendar/releases/latest)  
+> **Download:** [latest notarized DMG](https://github.com/hooosberg/CodexQuotaCalendar/releases/latest)  
 > Codex Quota Calendar is an independent utility and is not affiliated with OpenAI.
 
 Codex Quota Calendar turns the moving target of Codex usage into a small local rhythm: how much of today's fair share has been used, how many days remain in the current weekly window, and whether the current pace is comfortable or likely to run out early.
@@ -69,7 +69,7 @@ Full text: [Privacy](privacy.html)
 
 ## Install
 
-1. Download the latest DMG from [Releases](https://github.com/hooosberg/QuotaCalendar/releases/latest).
+1. Download the latest DMG from [Releases](https://github.com/hooosberg/CodexQuotaCalendar/releases/latest).
 2. Open the DMG.
 3. Drag **Codex Quota Calendar** into **Applications**.
 4. Launch it from Applications or Launchpad.

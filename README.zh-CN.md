@@ -9,9 +9,9 @@
   <br>
   今日份额 · 周剩余额度 · 本地历史记录 · 已公证 DMG
   <br>
-  <a href="https://hooosberg.github.io/QuotaCalendar/">官网落地页</a> ·
+  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">官网落地页</a> ·
   <a href="README.md">English</a> ·
-  <a href="https://github.com/hooosberg/QuotaCalendar/releases/latest">下载</a>
+  <a href="https://github.com/hooosberg/CodexQuotaCalendar/releases/latest">下载</a>
 </p>
 
 <p align="center">
@@ -22,12 +22,12 @@
 </p>
 
 <p align="center">
-  <a href="https://hooosberg.github.io/QuotaCalendar/">
+  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">
     <img src="assets/screenshots/menu-popover.png" alt="Codex Quota Calendar 截图" width="760">
   </a>
 </p>
 
-> **下载：** [最新版已公证 DMG](https://github.com/hooosberg/QuotaCalendar/releases/latest)  
+> **下载：** [最新版已公证 DMG](https://github.com/hooosberg/CodexQuotaCalendar/releases/latest)  
 > Codex Quota Calendar 是独立工具，不隶属于 OpenAI。
 
 Codex Quota Calendar 把不断变化的 Codex 使用额度转换成更容易理解的节奏：今天平均份额用了多少，本周还剩多少，当前速度是否舒适，什么时候可能用完。
@@ -69,7 +69,7 @@ Codex Quota Calendar 把不断变化的 Codex 使用额度转换成更容易理�
 
 ## 安装
 
-1. 到 [Releases](https://github.com/hooosberg/QuotaCalendar/releases/latest) 下载最新版 DMG。
+1. 到 [Releases](https://github.com/hooosberg/CodexQuotaCalendar/releases/latest) 下载最新版 DMG。
 2. 打开 DMG。
 3. 把 **Codex Quota Calendar** 拖到 **Applications**。
 4. 从 Applications 或 Launchpad 启动。

@@ -210,8 +210,8 @@ struct AboutView: View {
 
     private let githubURL = URL(string: "https://github.com/hooosberg")!
     private let authorXURL = URL(string: "https://x.com/mX1D109MHW29394")!
-    private let landingPageURL = URL(string: "https://hooosberg.github.io/QuotaCalendar/")!
-    private let releasesURL = URL(string: "https://github.com/hooosberg/QuotaCalendar/releases")!
+    private let landingPageURL = URL(string: "https://hooosberg.github.io/CodexQuotaCalendar/")!
+    private let releasesURL = URL(string: "https://github.com/hooosberg/CodexQuotaCalendar/releases")!
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -300,7 +300,7 @@ struct AboutView: View {
                     systemImage: "globe",
                     title: model.text(.aboutLandingPage),
                     detail: model.text(.aboutLandingPageNote),
-                    value: "hooosberg.github.io/QuotaCalendar",
+                    value: "hooosberg.github.io/CodexQuotaCalendar",
                     url: landingPageURL
                 )
             }

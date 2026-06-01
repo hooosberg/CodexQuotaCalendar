@@ -206,7 +206,7 @@ struct OpenAIAuthLoginService {
         }
         guard request.query["state"] == expectedState else {
             callback.fail(OpenAIAuthError.callbackStateMismatch)
-            return .html(statusCode: 400, body: errorPage("登录校验失败，请回到额度日历重新登录。"))
+            return .html(statusCode: 400, body: errorPage("登录校验失败，请回到 Codex Quota Calendar 重新登录。"))
         }
         if let code = request.query["code"], !code.isEmpty {
             Task { @MainActor in NSApp.activate(ignoringOtherApps: true) }
@@ -261,9 +261,9 @@ struct OpenAIAuthLoginService {
 
     private static func successPage() -> Data {
         Data("""
-        <html><head><meta charset="utf-8"><title>额度日历</title></head>
+        <html><head><meta charset="utf-8"><title>Codex Quota Calendar</title></head>
         <body style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;padding:32px;">
-        <h2>登录完成</h2><p>可以回到额度日历了。</p>
+        <h2>登录完成</h2><p>可以回到 Codex Quota Calendar 了。</p>
         <script>setTimeout(function(){ window.open('', '_self'); window.close(); }, 180);</script>
         </body></html>
         """.utf8)
@@ -271,7 +271,7 @@ struct OpenAIAuthLoginService {
 
     private static func errorPage(_ message: String) -> Data {
         Data("""
-        <html><head><meta charset="utf-8"><title>额度日历</title></head>
+        <html><head><meta charset="utf-8"><title>Codex Quota Calendar</title></head>
         <body style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;padding:32px;">
         <h2>登录失败</h2><p>\(htmlEscape(message))</p>
         </body></html>

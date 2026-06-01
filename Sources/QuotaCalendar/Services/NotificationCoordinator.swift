@@ -17,7 +17,7 @@ struct NotificationCoordinator {
         await requestAuthorizationIfNeeded()
 
         let content = UNMutableNotificationContent()
-        content.title = "Quota Calendar"
+        content.title = "Codex Quota Calendar"
         content.body = "Today's Codex budget is used. Slow down or rebalance your remaining days."
         content.sound = .default
 
