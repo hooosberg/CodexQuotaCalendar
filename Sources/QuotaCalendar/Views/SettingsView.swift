@@ -210,7 +210,7 @@ struct AboutView: View {
 
     private let githubURL = URL(string: "https://github.com/hooosberg")!
     private let authorXURL = URL(string: "https://x.com/mX1D109MHW29394")!
-    private let landingPageURL = URL(string: "https://hooosberg.github.io/CodexQuotaCalendar/")!
+    private let landingPageURL = URL(string: "https://hooosberg.com/apps/codex-quota-calendar/")!
     private let releasesURL = URL(string: "https://github.com/hooosberg/CodexQuotaCalendar/releases")!
 
     var body: some View {
@@ -300,7 +300,7 @@ struct AboutView: View {
                     systemImage: "globe",
                     title: model.text(.aboutLandingPage),
                     detail: model.text(.aboutLandingPageNote),
-                    value: "hooosberg.github.io/CodexQuotaCalendar",
+                    value: "hooosberg.com/apps/codex-quota-calendar",
                     url: landingPageURL
                 )
             }

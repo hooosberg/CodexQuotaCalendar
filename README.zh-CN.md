@@ -9,7 +9,7 @@
   <br>
   今日份额 · 周剩余额度 · 本地历史记录 · 已公证 DMG
   <br>
-  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">官网落地页</a> ·
+  <a href="https://hooosberg.com/apps/codex-quota-calendar/">官网落地页</a> ·
   <a href="README.md">English</a> ·
   <a href="https://github.com/hooosberg/CodexQuotaCalendar/releases/latest">下载</a>
 </p>
@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">
+  <a href="https://hooosberg.com/apps/codex-quota-calendar/">
     <img src="assets/screenshots/menu-popover.png" alt="Codex Quota Calendar 截图" width="760">
   </a>
 </p>

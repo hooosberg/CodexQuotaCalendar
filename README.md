@@ -9,7 +9,7 @@
   <br>
   Daily share · weekly remaining quota · local history · notarized DMG
   <br>
-  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">Official Website</a> ·
+  <a href="https://hooosberg.com/apps/codex-quota-calendar/">Official Website</a> ·
   <a href="README.zh-CN.md">简体中文</a> ·
   <a href="https://github.com/hooosberg/CodexQuotaCalendar/releases/latest">Download</a>
 </p>
@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://hooosberg.github.io/CodexQuotaCalendar/">
+  <a href="https://hooosberg.com/apps/codex-quota-calendar/">
     <img src="assets/screenshots/menu-popover.png" alt="Codex Quota Calendar screenshot" width="760">
   </a>
 </p>
